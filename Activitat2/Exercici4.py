@@ -1,0 +1,6 @@
+a = int(input("Entra un numero "))
+b = int(input("Entra un altre numero "))
+print(f"Suma {a+b}")
+print(f"Resta {a-b}")
+print(f"Multiplicacio {a*b}")
+print(f"Divisio {a/b}")
