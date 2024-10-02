@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="677091ac-ff20-4218-ab30-ae6ff34c5e53" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercici6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercici10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercici11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercici7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercici8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercici9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +31,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Exercici1.executor": "Run",
+    "Python.Exercici10.executor": "Run",
+    "Python.Exercici11.executor": "Run",
     "Python.Exercici2.executor": "Run",
     "Python.Exercici3.executor": "Run",
     "Python.Exercici4.executor": "Run",
     "Python.Exercici5.executor": "Run",
     "Python.Exercici6.executor": "Run",
     "Python.Exercici7.executor": "Run",
+    "Python.Exercici8.executor": "Run",
+    "Python.Exercici9.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "activitat3",

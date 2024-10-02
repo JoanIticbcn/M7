@@ -1,4 +1,4 @@
-contactes = {"Joan":14}
+contactes = {}
 nom = str(input("Entra el nom del contacte "))
 edat = int(input("Entra l'edat del contacte "))
 while nom !='':
