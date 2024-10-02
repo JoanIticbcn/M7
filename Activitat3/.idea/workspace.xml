@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="677091ac-ff20-4218-ab30-ae6ff34c5e53" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Exercici1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercici2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercici3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercici4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercici5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercici6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercici7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercici7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mnXgVkcmZk7thjXLkYVDn6zhdK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,6 +32,8 @@
     "Python.Exercici3.executor": "Run",
     "Python.Exercici4.executor": "Run",
     "Python.Exercici5.executor": "Run",
+    "Python.Exercici6.executor": "Run",
+    "Python.Exercici7.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "activitat3",
