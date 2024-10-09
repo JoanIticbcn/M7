@@ -10,5 +10,4 @@ print("El tamany de la array son ",ArrayeExercici1.shape)
 print("El numero total d'elements es ",ArrayeExercici1.size)
 print("El tipus de dada a dins de la Array es de ",ArrayeExercici1.dtype)
 #Exercici4
-ArrayeExercici4=exercici4()
-print(ArrayeExercici4)
+exercici4()
