@@ -9,6 +9,8 @@ def getClockSpeed():
 
 def getMegapixels():
     dataMegapixels = DataFrame[DataFrame['id'].isin(IDs)][['id','px_height','px_width']]
+    #Creem la columna calculMegapixels per a guardar el pixelheightxpixelwidth
+    dataMegapixels['calculMegapixels']= dataMegapixels['px_height']*dataMegapixels['px_width']
     return dataMegapixels
 
 def getBatteryPower():
