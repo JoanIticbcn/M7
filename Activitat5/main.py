@@ -10,7 +10,7 @@ batteryPower = getBatteryPower()
 plt.figure(figsize=(15, 10))
 
 #Primer grafic
-plt.subplot(2, 2, 1) 
+plt.subplot(2, 2, 1)
 plt.bar(clockSpeed['id'], clockSpeed['clock_speed'], color='skyblue')
 plt.title('Clockspeed per dispositiu')
 plt.xlabel('ID')
