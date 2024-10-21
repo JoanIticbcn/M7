@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 from ExerciciC import *
-
 #Creem els dataFrames corresponents utilitzant les funcions de l'exercici C
 clockSpeed = getClockSpeed()
 megaPixels = getMegapixels()
