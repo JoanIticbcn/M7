@@ -4,6 +4,7 @@ from create import insertUser
 from create_table import createTable
 from delete import delete
 from read import read
+from update import updatePasswd
 
 # Fem el try except per capturar errors i tanquem les connexió amb el finally
 try:
@@ -11,7 +12,6 @@ try:
     conn = getConn()
     # Creem el cursor per a treballar a partir de la connexio
     connexio = conn.cursor()
-
     # Instruccions per a l'usuari final pugi operar el programa de forma senzilla
     instruccions = ("1:Create table\n"
                     "2:Create un registre a la taula\n"
@@ -31,7 +31,8 @@ try:
     if num == 3:
         read(connexio)
     if num == 4:
-        pass
+        idToUpdate = int(input("Entra el ID de l'usuari que vols actualitzar la contrasenya "))
+        updatePasswd(connexio,conn,idToUpdate)
     if num == 5:
         idToDelete = int(input("Entra el ID de l'usuari que vols esborrar "))
         delete(connexio,conn,idToDelete)
@@ -41,8 +42,10 @@ try:
     if num == 7:
         print(instruccions)
 except(Exception, psycopg2.Error) as error:
+    #Imprimim el missatge d'error
     print("An error has ocurred " + error)
 finally:
     #Tanquem la connexió
     conn.close()
     connexio.close()
+    print("Connexio finalitzada")
