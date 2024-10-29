@@ -2,6 +2,8 @@ import psycopg2
 from conn import getConn
 from create import insertUser
 from create_table import createTable
+from delete import delete
+from read import read
 
 # Fem el try except per capturar errors i tanquem les connexió amb el finally
 try:
@@ -22,23 +24,25 @@ try:
 
     # Alternativa al switch de java per a executar la operacio en funcio de l'entrada de l'usuari
     num = int(input("Entra el numero de l'operacio desitjada "))
-    if (num == 1):
+    if num == 1:
         createTable(connexio, conn)
-    if (num == 2):
+    if num == 2:
         insertUser(connexio, conn)
-    if (num == 3):
+    if num == 3:
+        read(connexio)
+    if num == 4:
         pass
-    if (num == 4):
-        pass
-    if (num == 5):
-        pass
-    if (num == 6):
+    if num == 5:
+        idToDelete = int(input("Entra el ID de l'usuari que vols esborrar "))
+        delete(connexio,conn,idToDelete)
+    if num == 6:
         connexio.close()
         conn.close()
-    if (num == 7):
+    if num == 7:
         print(instruccions)
 except(Exception, psycopg2.Error) as error:
     print("An error has ocurred " + error)
 finally:
+    #Tanquem la connexió
     conn.close()
     connexio.close()

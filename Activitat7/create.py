@@ -7,4 +7,4 @@ def insertUser(connexioIU, connIU):
     # Executem la query de SQL i fem els canvis permanents amb el commit
     connexioIU.execute(sql)
     connIU.commit()
-    print("S'ha introudit el registre correctament a la taula users")
+    print("S'ha introudit el registre correctament a la taula users amb els seguents valors: 'Jhon', 'jhon@example.com', 1234, true")

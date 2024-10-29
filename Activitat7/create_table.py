@@ -13,4 +13,4 @@ def createTable(connexioCT, connCT):
     # Executem la query de SQL i fem els canvis permanents amb el commit
     connexioCT.execute(sql)
     connCT.commit()
-    print("Taula users creada exitosament")
+    print("Taula users creada exitosament amb els seguents camps: id,username,email,password,created_at,is_active")
