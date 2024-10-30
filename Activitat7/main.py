@@ -1,3 +1,4 @@
+#Imports del projecte
 import psycopg2
 from conn import getConn
 from create import insertUser
